@@ -1,25 +1,65 @@
-# Welcome to Next.js
+# Muhuntha Vel - Ultra-Modern Developer Portfolio
 
-This is the most minimal starter for your Next.js project.
+This is a high-performance, animated developer portfolio built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion, and Three.js.
 
-## Deploy your own
+## 🚀 Tech Stack
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **3D Graphics:** React Three Fiber / Three.js
+- **Icons:** Lucide React
 
-## How to use
+## 🛠️ Setup & Installation
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1.  **Navigate to the project directory:**
+    ```bash
+    cd portfolio
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+    *Note: `--legacy-peer-deps` is required due to React 19 peer dependency conflicts with some 3D libraries.*
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open in browser:**
+    Visit `http://localhost:3000`
+
+## 📦 Building for Production
 
 ```bash
-npx create-next-app --example hello-world hello-world-app
+npm run build
 ```
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
+## 🎨 Customization
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
+### Personal Details
+Update the content in the component files located in `components/`:
+- `Hero.tsx`: Name, Role, Hero Text
+- `About.tsx`: Bio
+- `Skills.tsx`: Skill levels and categories
+- `Projects.tsx`: Project details and links
+- `Hackathons.tsx`: Achievements and certificates
+- `Contact.tsx`: Contact info and social links
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Images
+Place your personal image in `public/assets/me/`.
+Update `components/Hero.tsx` to uncomment the `Image` component and point to your file (e.g., `/assets/me/photo.jpg`).
+
+### Colors & Theme
+Theme colors (Neon Cyan/Magenta) are defined in `tailwind.config.ts`.
+Global styles are in `app/globals.css`.
+
+## 📁 Folder Structure
+
+- `app/`: Next.js App Router pages and layout
+- `components/`: Reusable UI sections and components
+- `lib/`: Utility functions
+- `public/`: Static assets

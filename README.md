@@ -22,7 +22,7 @@ This is a high-performance, animated developer portfolio built with Next.js 14, 
     ```bash
     npm install --legacy-peer-deps
     ```
-    *Note: `--legacy-peer-deps` is required due to React 19 peer dependency conflicts with some 3D libraries.*
+    *Note: `--legacy-peer-deps` is required due to React 19 peer dependency conflicts with some 3D libraries. This project uses Next.js 14.*
 
 3.  **Run the development server:**
     ```bash

@@ -93,7 +93,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-tr from-neon-cyan/20 to-neon-magenta/20 rounded-2xl z-0"></div>
             <div className="relative w-full h-full bg-black/50 rounded-xl overflow-hidden z-10">
                {/* Placeholder Image - User will replace source */}
-               {/* <Image src="/assets/me/photo.jpg" alt="Muhuntha Vel" fill className="object-cover" /> */}
+               <Image src="/assets/me/photo.jpeg" alt="Muhuntha Vel" fill className="object-cover" />
                <div className="w-full h-full flex items-center justify-center text-gray-500 bg-gray-900">
                   <span className="text-center p-4">Add photo to<br/>/public/assets/me/</span>
                </div>

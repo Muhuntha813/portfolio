@@ -47,7 +47,7 @@ export const projects = [
       { name: "Database", tools: "PostgreSQL with Prisma" },
       { name: "Auth", tools: "NextAuth.js" }
     ],
-    link: "#",
+    link: "https://b2bplastics-srm.web.app/",
     github: "#",
     images: [],
     isPrivate: true
@@ -73,7 +73,7 @@ export const projects = [
       { name: "Frontend", tools: "React, Chart.js" },
       { name: "Storage", tools: "Supabase" }
     ],
-    link: "#",
+    link: "www.sbmchpro.in",
     github: "#",
     images: [],
     isPrivate: false
@@ -99,8 +99,8 @@ export const projects = [
       { name: "Database", tools: "PostgreSQL (Cloud Hosted)" },
       { name: "APIs", tools: "Google Calendar API" }
     ],
-    link: "#",
-    github: "#",
+    link: "https://github.com/Muhuntha813/SmartPlanner",
+    github: "https://github.com/Muhuntha813/SmartPlanner",
     images: [],
     isPrivate: false
   }
